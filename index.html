@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Orígenes Coffee reúne expresiones únicas del café latinoamericano. Tres países, una misma pasión por el origen."
+    />
+    <meta name="theme-color" content="#f7f5ef" />
+    <title>Orígenes Coffee — El café tiene un lugar de origen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true"></div>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Orígenes Coffee, inicio">
+        <img class="wordmark-mark" src="assets/logo-icono.png" alt="" />
+        <span>ORÍGENES<small>COFFEE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span class="sr-only">Abrir menú</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+        <a href="#historia">Nuestra historia</a>
+        <a href="#origenes">Orígenes</a>
+        <a href="#portafolio">Portafolio</a>
+        <a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="film" id="inicio" aria-label="El viaje del café">
+        <div class="film-sticky">
+          <div class="film-image" aria-hidden="true">
+            <img class="film-photo is-active" src="assets/montana-cafe.jpg" alt="" />
+            <img class="film-photo" src="assets/fruta-cafe.jpg" alt="" />
+            <img class="film-photo" src="assets/cosecha-cafe.jpg" alt="" />
+            <img class="film-photo" src="assets/preparacion-cafe.jpg" alt="" />
+            <img class="film-photo" src="assets/taza-cafe.jpg" alt="" />
+          </div>
+          <div class="film-wash" aria-hidden="true"></div>
+          <div class="film-topline">
+            <span>Una historia que nace en la tierra</span>
+            <span class="film-count"><b>01</b> <i>/</i> 05</span>
+          </div>
+          <div class="film-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Café de origen latinoamericano</p>
+            <p class="film-kicker">El viaje comienza aquí</p>
+            <h1 class="film-title">El café<br />tiene un <em>lugar</em><br />de origen.</h1>
+            <p class="film-description">Tres países. Expresiones únicas.<br />Un mundo de historias en cada taza.</p>
+            <a class="text-link film-link" href="#historia">Descubre Orígenes <span>↓</span></a>
+          </div>
+          <div class="film-footer">
+            <span class="film-caption">01 &nbsp; / &nbsp; EL TERRITORIO</span>
+            <div class="film-progress" aria-label="Progreso de la historia">
+              <span class="progress-track"><span class="progress-fill"></span></span>
+              <span class="progress-label">Desliza para explorar</span>
+            </div>
+            <span class="film-coordinate">4° 42′ N &nbsp; 74° 04′ O</span>
+          </div>
+          <div class="film-mobile-cue" aria-hidden="true">Desliza para descubrir <span>↓</span></div>
+        </div>
+        <div class="film-steps" aria-hidden="true">
+          <div class="film-step" data-chapter="0"></div>
+          <div class="film-step" data-chapter="1"></div>
+          <div class="film-step" data-chapter="2"></div>
+          <div class="film-step" data-chapter="3"></div>
+          <div class="film-step" data-chapter="4"></div>
+        </div>
+      </section>
+
+      <section class="intro section-pad" id="historia">
+        <div class="intro-meta reveal">
+          <span class="section-index">01 — NUESTRA ESENCIA</span>
+          <span class="small-rule"></span>
+          <span>De la tierra a tu mesa</span>
+        </div>
+        <div class="intro-content">
+          <h2 class="display-title reveal">Un buen café cuenta<br />la historia de <em>su tierra.</em></h2>
+          <div class="intro-bottom reveal">
+            <p class="body-copy">Creemos que detrás de cada gran taza hay mucho más que café. Hay paisajes, manos expertas y comunidades que han cuidado su tierra por generaciones. En Orígenes, acercamos esas historias al mundo.</p>
+            <a class="round-link" href="#origenes" aria-label="Conoce nuestros orígenes"><span>Conoce<br />nuestros<br />orígenes</span><b>↘</b></a>
+          </div>
+        </div>
+        <div class="intro-stamp" aria-hidden="true">DE LA TIERRA<br />CON PROPÓSITO <span>✳</span></div>
+      </section>
+
+      <section class="origins section-pad" id="origenes">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">02 — TRES TERRITORIOS</span>
+            <h2 class="display-title">El origen lo <em>cambia todo.</em></h2>
+          </div>
+          <p class="body-copy">Cada paisaje imprime su carácter. Descubre tres expresiones de café, unidas por la riqueza de Latinoamérica.</p>
+        </div>
+        <div class="origin-grid">
+          <article class="origin-card reveal" data-tilt>
+            <div class="origin-image">
+              <img src="assets/montana-cafe.jpg" alt="Montañas y cafetales cubiertos por la neblina" loading="lazy" />
+              <span class="origin-number">01</span>
+              <span class="origin-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="origin-info">
+              <div><span class="origin-country">Colombia</span><h3>Altura y equilibrio</h3></div>
+              <span class="origin-notes">Frutal · Floral · Dulce</span>
+            </div>
+          </article>
+          <article class="origin-card reveal" data-tilt>
+            <div class="origin-image">
+              <img src="assets/cosecha-cafe.jpg" alt="Manos recolectando cerezas maduras de café" loading="lazy" />
+              <span class="origin-number">02</span>
+              <span class="origin-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="origin-info">
+              <div><span class="origin-country">Guatemala</span><h3>Carácter volcánico</h3></div>
+              <span class="origin-notes">Cacao · Especias · Cítrico</span>
+            </div>
+          </article>
+          <article class="origin-card reveal" data-tilt>
+            <div class="origin-image">
+              <img src="assets/fruta-cafe.jpg" alt="Cerezas de café creciendo entre las hojas" loading="lazy" />
+              <span class="origin-number">03</span>
+              <span class="origin-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="origin-info">
+              <div><span class="origin-country">Brasil</span><h3>Calidez y cuerpo</h3></div>
+              <span class="origin-notes">Chocolate · Nuez · Caramelo</span>
+            </div>
+          </article>
+        </div>
+        <p class="origins-footnote"><span>✳</span> Un mapa de matices, cultivado con cuidado.</p>
+      </section>
+
+      <section class="quote-band">
+        <div class="quote-image" aria-hidden="true"></div>
+        <div class="quote-content reveal">
+          <span class="section-index">CULTIVADO CON INTENCIÓN</span>
+          <blockquote>“El origen no es solo<br />un lugar. Es <em>todo lo que<br />ese lugar nos enseña.”</em></blockquote>
+          <span class="quote-credit">LA FILOSOFÍA ORÍGENES</span>
+        </div>
+        <span class="quote-side-note">TIERRA &nbsp; · &nbsp; TIEMPO &nbsp; · &nbsp; CUIDADO</span>
+      </section>
+
+      <section class="portfolio section-pad" id="portafolio">
+        <div class="portfolio-heading reveal">
+          <div>
+            <span class="section-index">03 — NUESTRA SELECCIÓN</span>
+            <h2 class="display-title">La expresión<br /><em>en cada taza.</em></h2>
+          </div>
+          <p class="body-copy">Lotes seleccionados para quienes saben que el mejor café no solo se prueba. Se descubre.</p>
+        </div>
+        <div class="portfolio-layout">
+          <article class="featured-coffee reveal" data-tilt>
+            <img src="assets/bar-cafe.jpg" alt="Barista preparando café junto a una taza recién servida" loading="lazy" />
+            <div class="featured-label"><span>LOTE DESTACADO</span><b>01 / 03</b></div>
+            <div class="featured-caption"><span>Colombia · Huila</span><h3>Una pausa<br />con <em>sentido.</em></h3><span class="featured-notes">Panela · Mandarina · Jazmín</span></div>
+            <span class="featured-stamp">ESPECIAL<br />DE ORIGEN</span>
+          </article>
+          <div class="portfolio-aside">
+            <p class="portfolio-intro reveal">Selección consciente.<br /><em>Carácter inconfundible.</em></p>
+            <div class="product-list">
+              <a class="product-row reveal" href="#contacto"><span class="product-id">01</span><span class="product-name">Huila, Colombia<small>Lavado · 1.850 msnm</small></span><span class="product-arrow">↗</span></a>
+              <a class="product-row reveal" href="#contacto"><span class="product-id">02</span><span class="product-name">Antigua, Guatemala<small>Honey · 1.600 msnm</small></span><span class="product-arrow">↗</span></a>
+              <a class="product-row reveal" href="#contacto"><span class="product-id">03</span><span class="product-name">Cerrado, Brasil<small>Natural · 1.100 msnm</small></span><span class="product-arrow">↗</span></a>
+            </div>
+            <a class="text-link portfolio-link" href="#contacto">Conoce nuestro portafolio <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contacto">
+        <div class="contact-top reveal">
+          <span class="section-index">04 — CONECTEMOS</span>
+          <span class="contact-coordinates">LATINOAMÉRICA, PARA EL MUNDO</span>
+        </div>
+        <div class="contact-main">
+          <h2 class="display-title reveal">Las grandes historias<br />comienzan con <em>un café.</em></h2>
+          <div class="contact-bottom reveal">
+            <p class="body-copy">¿Buscas un aliado de origen para tu negocio? Conversemos sobre lo que podemos crear juntos.</p>
+            <a class="contact-cta magnetic" href="mailto:hola@origenes.coffee">Hablemos de café <span>↗</span></a>
+          </div>
+        </div>
+        <div class="contact-ornament" aria-hidden="true">O</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-mark" href="#inicio" aria-label="Orígenes Coffee, volver al inicio"><img class="footer-logo" src="assets/logo-origenes.png" alt="Orígenes Coffee" /></a>
+      <span class="footer-note">Un mundo de historias en cada taza.</span>
+      <div class="footer-links"><a href="mailto:hola@origenes.coffee">Contacto ↗</a><a href="#inicio">Volver arriba ↑</a></div>
+      <span class="copyright">© 2025 ORÍGENES COFFEE</span>
+    </footer>
+    <a class="whatsapp-link" href="https://wa.me/?text=Hola%2C%20quiero%20conocer%20m%C3%A1s%20sobre%20Or%C3%ADgenes%20Coffee" target="_blank" rel="noreferrer" aria-label="Escríbenos por WhatsApp"><span class="whatsapp-icon" aria-hidden="true">w</span><span class="whatsapp-label">Hablemos</span></a>
+  </body>
+</html>
